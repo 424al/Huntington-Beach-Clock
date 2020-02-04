@@ -39,15 +39,15 @@ function setBG(){
 
 	if (hour<12) {
 		//morning
-		document.body.style.backgroundImage = "url('../Huntington-Beach-Clock/img/morning.jpg')"
+		document.body.style.backgroundImage = "url('../img/morning.jpg')"
 		greeting.textContent = 'Good Morning';
 	} else if(hour< 18){
 		//afternoon
-		document.body.style.backgroundImage = "url('../Huntington-Beach-Clock/img/afternoon.jpg')"
+		document.body.style.backgroundImage = "url('../img/afternoon.jpg')"
 		greeting.textContent = 'Good Afternoon';
 	} else {
 		//Evening
-		document.body.style.backgroundImage = "url('../Huntington-Beach-Clock/img/evening.jpg')"
+		document.body.style.backgroundImage = "url('../img/evening.jpg')"
 		greeting.textContent = 'Good Evening';
 		document.body.style.color = 'white';
 	}
